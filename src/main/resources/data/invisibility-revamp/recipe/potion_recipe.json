@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "GSG",
+        " G "
+    ],
+    "key": {
+        "#": "minecraft:amethyst_shard",
+        "G": "minecraft:glass_pane",
+        "S": "minecraft:golden_carrot"
+    },
+    "result": { 
+        "id": "invisibility-revamp:sharded_carrot",
+        "count": 1
+    }
+}
