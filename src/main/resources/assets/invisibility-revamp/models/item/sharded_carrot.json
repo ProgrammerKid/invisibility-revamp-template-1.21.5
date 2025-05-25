@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "invisibility-revamp:item/glass_carrot"
+    "layer0": "invisibility-revamp:item/sharded_carrot"
   }
 }
