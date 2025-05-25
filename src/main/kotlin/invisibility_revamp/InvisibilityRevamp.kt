@@ -80,6 +80,7 @@ object InvisibilityRevamp : ModInitializer {
                             listOf(
                                 StatusEffectInstance(StatusEffects.INVISIBILITY, 20 * 60),
                                 StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 10),
+                                StatusEffectInstance(StatusEffects.DARKNESS, 20 * 10),
 
                             )
                         )
