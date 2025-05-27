@@ -3,7 +3,7 @@
 	"id": "invisibility-revamp",
 	"version": "${version}",
 	"name": "Invisibility-Revamp",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod adds a new item 'sharded carrot' which gives invisibility for a minute, and slowness and darkness for 10 seconds as a side effect. It can be crafted using a golden carrot, three glass panes and an amethyst shard.",
 	"authors": [
 		"Me!"
 	],
