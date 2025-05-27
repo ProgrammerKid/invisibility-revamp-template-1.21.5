@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:sculk",
+    "minecraft:arrow"
+  ],
+  "result": {
+    "id": "invisibility-revamp:arrow_blindness",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_color": 3287750,
+        "custom_name": "Arrow of Blindness",
+        "custom_effects": [
+          {
+            "id": "minecraft:blindness",
+            "amplifier": 0,
+            "duration": 1000,
+            "show_particles": true,
+            "show_icon": true
+          }
+        ]
+      }
+    }
+  }
+}

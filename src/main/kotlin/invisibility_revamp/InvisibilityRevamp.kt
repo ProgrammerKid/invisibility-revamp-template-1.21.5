@@ -1,24 +1,3 @@
-// package invisibility_revamp
-
-// import net.fabricmc.api.ModInitializer
-// import org.slf4j.LoggerFactory
-
-// object InvisibilityRevamp : ModInitializer {
-//     private val logger = LoggerFactory.getLogger("invisibility-revamp")
-
-// 	override fun onInitialize() {
-// 		// This code runs as soon as Minecraft is in a mod-load-ready state.
-// 		// However, some things (like resources) may still be uninitialized.
-// 		// Proceed with mild caution.
-// 		logger.info("Hello Fabric world!")
-// 	}
-// }
-
-// File: GlassCarrotMod.kt
-// InvisibilityRevamp.kt
-
-// InvisibilityRevamp.kt
-// InvisibilityRevamp.kt
 package invisibility_revamp
 
 import net.fabricmc.api.ModInitializer
@@ -59,7 +38,7 @@ object InvisibilityRevamp : ModInitializer {
             FoodComponent.Builder()
             .alwaysEdible()
             .build()
-        )
+        ).maxCount(16)
     val SHARDED_CARROT = Registry.register(
        Registries.ITEM,
        key,
@@ -98,5 +77,17 @@ object InvisibilityRevamp : ModInitializer {
 
     })
     }
+    // val id= Identifier.of("invisibility-revamp", "arrow_blindness")
+    // val key = RegistryKey.of(RegistryKeys.ITEM, id);
+    // val settings = Item.Settings()
+    //     .registryKey(key)
+    //     .maxCount(64)
+    // val ARROW_BLINDNESS = Registry.register(
+    //    Registries.ITEM,
+    //    key,
+    //    Item(settings)
+    // )
+    // ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register { group ->
+    //     group.add(ARROW_BLINDNESS)
+    // }
 }
-
