@@ -3,10 +3,10 @@
   "category": "equipment",
   "ingredients": [
     "minecraft:sculk",
-    "minecraft:arrow"
+    "minecraft:potion{Potion:water}"
   ],
   "result": {
-    "id": "minecraft:tipped_arrow",
+    "id": "minecraft:potion",
     "components": {
       "minecraft:potion_contents": {
         "custom_color": 2039587,
@@ -14,7 +14,7 @@
         "custom_effects": [
           {
             "id": "minecraft:blindness",
-            "duration": 800,
+            "duration": 2400,
             "show_particles": true,
             "show_icon": true
           }

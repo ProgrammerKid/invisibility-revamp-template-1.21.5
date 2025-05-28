@@ -8,6 +8,8 @@ import net.minecraft.component.type.FoodComponent
 import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.entity.effect.StatusEffects
 import net.minecraft.item.Item
+import net.minecraft.item.PotionItem
+import net.minecraft.potion.Potion
 import net.minecraft.item.Items
 import net.minecraft.item.Item.Settings
 import net.minecraft.item.consume.ApplyEffectsConsumeEffect
@@ -76,18 +78,16 @@ object InvisibilityRevamp : ModInitializer {
         }
 
     })
-    }
-    // val id= Identifier.of("invisibility-revamp", "arrow_blindness")
-    // val key = RegistryKey.of(RegistryKeys.ITEM, id);
-    // val settings = Item.Settings()
-    //     .registryKey(key)
-    //     .maxCount(64)
-    // val ARROW_BLINDNESS = Registry.register(
-    //    Registries.ITEM,
-    //    key,
-    //    Item(settings)
+
+    // val POTION_OF_BLINDNESS =  Registry.register(
+    //     Registries.POTION,
+    //     Identifier.of("invisibility-revamp", "potion_of_blindness"), 
+    //     Potion(
+    //         "Blindness",
+    //         StatusEffectInstance(StatusEffects.BLINDNESS, 800),
+    //     ),
     // )
-    // ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register { group ->
-    //     group.add(ARROW_BLINDNESS)
-    // }
+
 }
+}
+    
