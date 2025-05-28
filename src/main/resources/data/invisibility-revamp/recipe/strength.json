@@ -2,19 +2,20 @@
   "type": "minecraft:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    "minecraft:sculk",
-    "minecraft:potion{Potion:water}"
+    "minecraft:blaze_powder",
+    "minecraft:bottle",
+    "minecraft:nether_wart"
   ],
   "result": {
     "id": "minecraft:potion",
     "components": {
       "minecraft:potion_contents": {
         "custom_color": 2039587,
-        "custom_name": "Blindness",
+        "custom_name": "Strength",
         "custom_effects": [
           {
-            "id": "minecraft:blindness",
-            "duration": 2400,
+            "id": "minecraft:strength",
+            "duration": 5000,
             "show_particles": true,
             "show_icon": true
           }
